@@ -16,5 +16,6 @@ defmodule Box.Files.File do
     file
     |> cast(attrs, [:name, :type])
     |> validate_required([:name, :type])
+    |> unique_constraint(:name)
   end
 end
