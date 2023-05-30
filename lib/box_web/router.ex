@@ -7,6 +7,7 @@ defmodule BoxWeb.Router do
 
   scope "/api", BoxWeb do
     pipe_through :api
+    get "/files", FileController, :index
   end
 
   # Enables LiveDashboard only for development

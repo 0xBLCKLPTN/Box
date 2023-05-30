@@ -14,10 +14,10 @@ config :box,
 # Configures the endpoint
 config :box, BoxWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "SIHW+u3MbVGmNb7HdCk0HM8L1bvHar4Rw1DWEM31Kue5LtMqZznUZTMEEuy4XQEZ",
+  secret_key_base: "iBUahZSkffvZmtXpk2vVAGwbx69vEr24jrWMwOoq8ds8Dm0709SqpP5Cgc4dE453",
   render_errors: [view: BoxWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: Box.PubSub,
-  live_view: [signing_salt: "jACo8hx0"]
+  live_view: [signing_salt: "WyCQAP5P"]
 
 # Configures Elixir's Logger
 config :logger, :console,

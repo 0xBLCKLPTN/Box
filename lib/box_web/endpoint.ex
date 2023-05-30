@@ -7,7 +7,7 @@ defmodule BoxWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_box_key",
-    signing_salt: "BBV5sXXQ"
+    signing_salt: "ZH/Q704c"
   ]
 
   socket "/socket", BoxWeb.UserSocket,
